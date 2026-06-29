@@ -24,7 +24,7 @@ export default function WhatIs() {
             Uma corrida digital pensada pra quem treina, compete e <span className="text-primary underline decoration-primary underline-offset-8">não para.</span>
           </p>
           <p className="mt-10 text-xl text-white/60 font-sans font-medium">
-            Sem largada marcada, sem percurso fixo — cada atleta decide onde correr e nós cuidamos do resto. Sua NONSTOP começa quando você decidir e termina quando você cruzar a sua própria linha de chegada — onde quer que ela esteja.
+            Sem largada marcada, sem percurso fixo. Cada atleta decide onde correr e nós cuidamos do resto. Sua NONSTOP começa quando você decidir e termina quando você cruzar a sua própria linha de chegada, onde quer que ela seja.
           </p>
         </div>
       </div>

@@ -18,7 +18,7 @@ export default function FAQ() {
     },
     {
       q: "Posso correr na esteira da academia?",
-      a: "Pode! Rua, parque, trilha ou esteira — você escolhe onde."
+      a: "Pode! Rua, parque, trilha ou esteira. Você escolhe onde."
     },
     {
       q: "Quando começa a NONSTOP?",
@@ -26,7 +26,7 @@ export default function FAQ() {
     },
     {
       q: "Quanto custa pra participar?",
-      a: "Tem várias opções de kit, com preços diferentes — do mais simples ao mais completo. A partir de R$ 89,00, com kits de até R$ 250,00."
+      a: "Temos várias opções de kit, com preços diferentes, do mais simples ao mais completo. A partir de R$ 89,00, com kits de até R$ 250,00."
     },
     {
       q: "Onde eu pego meu kit depois?",

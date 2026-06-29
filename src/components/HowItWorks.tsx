@@ -8,26 +8,21 @@ export default function HowItWorks() {
     {
       icon: <Route className="w-8 h-8 text-primary" />,
       title: "1. Escolha sua distância",
-      desc: "5km ou 10km — no ritmo que fizer sentido pra você. Não tem certo ou errado: escolha o desafio que faz sentido pra sua fase."
-    },
-    {
-      icon: <CheckCircle2 className="w-8 h-8 text-primary" />,
-      title: "2. Inscreva-se",
-      desc: "Link na bio do Instagram @runninggang_br. Escolha seu kit e garanta sua vaga. É como comprar um ingresso online."
+      desc: "5km ou 10km, no ritmo que fizer sentido pra você. Não tem certo ou errado: escolha o desafio que faz sentido pra sua fase."
     },
     {
       icon: <MapPin className="w-8 h-8 text-primary" />,
-      title: "3. Escolha onde correr",
+      title: "2. Escolha onde correr",
       desc: "Rua, parque, trilha ou esteira da academia. O lugar é você quem decide. Pode até ser do seu prédio até a padaria!"
     },
     {
       icon: <Calendar className="w-8 h-8 text-primary" />,
-      title: "4. Corra dentro do prazo",
+      title: "3. Corra dentro do prazo",
       desc: "Sem dia marcado. Complete sua distância dentro do período da prova (a partir do final de julho)."
     },
     {
       icon: <Watch className="w-8 h-8 text-primary" />,
-      title: "5. Guarde o comprovante",
+      title: "4. Guarde o comprovante",
       desc: "Print do app de corrida (Strava, Nike Run Club ou outro) com data, distância e tempo. É como tirar uma foto da prova."
     }
   ];
@@ -40,7 +35,7 @@ export default function HowItWorks() {
             COMO <span className="text-primary">FUNCIONA</span>
           </h2>
           <p className="mt-6 text-xl text-white/50 max-w-2xl mx-auto">
-            Explicado bem fácil — 5 passos simples para sua primeira corrida digital.
+            Explicado bem fácil. 4 passos simples para sua primeira corrida digital.
           </p>
         </div>
 

@@ -10,7 +10,7 @@ export default function Pricing() {
           <h2 className="text-5xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
             INSCRI<span className="text-primary">ÇÕES</span>
           </h2>
-          <p className="mt-4 text-xl text-white/60">Abertura prevista: final de julho — data oficial em breve</p>
+          <p className="mt-4 text-xl text-white/60">Abertura prevista para o final de julho. Data oficial em breve.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
