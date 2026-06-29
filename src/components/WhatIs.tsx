@@ -30,12 +30,12 @@ export default function WhatIs() {
       </div>
 
       {/* Kinetic Typography Background */}
-      <div className="absolute inset-0 z-0 flex flex-col justify-center opacity-5 pointer-events-none overflow-hidden">
+      <div className="absolute inset-0 z-0 flex flex-col justify-between py-10 md:py-20 opacity-5 pointer-events-none overflow-hidden">
         <motion.div style={{ x: x1 }} className="whitespace-nowrap">
-          <span className="text-[15vw] font-black uppercase tracking-tighter text-white">NÃO PARE NÃO PARE NÃO PARE NÃO PARE NÃO PARE</span>
+          <span className="text-[15vw] font-black uppercase tracking-tighter text-white leading-none">NÃO PARE NÃO PARE NÃO PARE NÃO PARE NÃO PARE</span>
         </motion.div>
-        <motion.div style={{ x: x2 }} className="whitespace-nowrap -mt-10">
-          <span className="text-[15vw] font-black uppercase tracking-tighter text-white">CORRA ONDE QUISER CORRA ONDE QUISER CORRA</span>
+        <motion.div style={{ x: x2 }} className="whitespace-nowrap">
+          <span className="text-[15vw] font-black uppercase tracking-tighter text-white leading-none">CORRA ONDE QUISER CORRA ONDE QUISER CORRA</span>
         </motion.div>
       </div>
     </section>

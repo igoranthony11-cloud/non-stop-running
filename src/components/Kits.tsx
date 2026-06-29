@@ -14,12 +14,12 @@ export default function Kits() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative aspect-square w-full max-w-md mx-auto"
+              className="relative aspect-square w-[80%] max-w-sm mx-auto"
             >
-              <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full animate-pulse"></div>
+              <div className="absolute inset-0 bg-primary/20 blur-[60px] md:blur-[100px] rounded-full animate-pulse"></div>
               <div className="w-full h-full border border-primary/20 rounded-full flex flex-col items-center justify-center bg-background/50 backdrop-blur-sm relative z-10 shadow-2xl">
-                <Star className="w-32 h-32 text-primary drop-shadow-[0_0_15px_rgba(255,69,0,0.5)]" fill="currentColor" />
-                <h3 className="text-3xl font-black text-white mt-8 uppercase tracking-widest text-center px-4">
+                <Star className="w-24 h-24 md:w-32 md:h-32 text-primary drop-shadow-[0_0_15px_rgba(255,69,0,0.5)]" fill="currentColor" />
+                <h3 className="text-xl md:text-3xl font-black text-white mt-4 md:mt-8 uppercase tracking-widest text-center px-4 leading-none">
                   A ESTRELA
                 </h3>
               </div>
