@@ -5,11 +5,19 @@ import { ArrowRight, Activity } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background pt-20">
+    <section className="relative min-h-screen flex flex-col justify-start pt-32 md:pt-40 overflow-hidden bg-background">
       {/* Dynamic Background Noise / Lines */}
       <div className="absolute inset-0 z-0 opacity-20">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
-        <div className="absolute top-1/4 left-1/4 w-[50vw] h-[50vw] bg-primary/20 blur-[150px] rounded-full mix-blend-screen pointer-events-none"></div>
+        <motion.div 
+          animate={{ 
+            x: [0, 100, -50, 0], 
+            y: [0, -100, 50, 0],
+            scale: [1, 1.2, 0.8, 1]
+          }}
+          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+          className="absolute top-1/4 left-1/4 w-[60vw] h-[60vw] md:w-[40vw] md:h-[40vw] bg-primary/30 blur-[80px] md:blur-[150px] rounded-full mix-blend-screen pointer-events-none"
+        ></motion.div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
