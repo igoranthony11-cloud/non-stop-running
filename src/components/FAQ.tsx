@@ -35,10 +35,10 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="py-32 bg-card relative">
+    <section className="py-20 md:py-32 bg-card relative">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
+          <h2 className="text-4xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
             PERGUNTAS <span className="text-primary">FREQUENTES</span>
           </h2>
         </div>

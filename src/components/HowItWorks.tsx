@@ -28,10 +28,10 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-32 bg-background relative border-b border-white/5">
+    <section className="py-20 md:py-32 bg-background relative border-b border-white/5">
       <div className="container mx-auto px-6">
         <div className="text-center mb-24">
-          <h2 className="text-5xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
+          <h2 className="text-4xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
             COMO <span className="text-primary">FUNCIONA</span>
           </h2>
           <p className="mt-6 text-xl text-white/50 max-w-2xl mx-auto">

@@ -14,7 +14,7 @@ export default function WhatIs() {
   const x2 = useTransform(scrollYProgress, [0, 1], ["-20%", "0%"]);
 
   return (
-    <section ref={ref} className="py-32 bg-card relative overflow-hidden border-y border-white/5">
+    <section ref={ref} className="py-20 md:py-32 bg-card relative overflow-hidden border-y border-white/5">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-xl md:text-2xl text-primary font-bold tracking-widest uppercase mb-6">

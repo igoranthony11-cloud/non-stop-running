@@ -5,7 +5,7 @@ import { Star } from "lucide-react";
 
 export default function Kits() {
   return (
-    <section className="py-32 bg-card relative overflow-hidden">
+    <section className="py-20 md:py-32 bg-card relative overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
@@ -27,7 +27,7 @@ export default function Kits() {
           </div>
           
           <div className="lg:w-1/2">
-            <h2 className="text-5xl md:text-6xl font-sans font-black text-white uppercase tracking-tighter mb-8">
+            <h2 className="text-4xl md:text-6xl font-sans font-black text-white uppercase tracking-tighter mb-8">
               BUSQUE SUA <br/><span className="text-primary">ESTRELA</span>
             </h2>
             <p className="text-xl text-white/70 mb-8 leading-relaxed font-sans">

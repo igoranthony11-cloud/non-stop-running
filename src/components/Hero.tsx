@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-7xl md:text-9xl font-sans font-black tracking-tighter text-foreground max-w-6xl leading-[0.9] uppercase"
+          className="text-5xl md:text-9xl font-sans font-black tracking-tighter text-foreground max-w-6xl leading-[0.9] uppercase"
         >
           NON<span className="text-primary">STOP</span>
         </motion.h1>
@@ -38,7 +38,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-8 text-2xl md:text-4xl text-white/80 max-w-3xl font-sans font-semibold tracking-tight"
+          className="mt-8 text-xl md:text-4xl text-white/80 max-w-3xl font-sans font-semibold tracking-tight"
         >
           A corrida que cabe na sua vida.
         </motion.p>

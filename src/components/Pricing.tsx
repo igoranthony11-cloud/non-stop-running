@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function Pricing() {
   return (
-    <section className="py-32 bg-background relative border-y border-white/5">
+    <section className="py-20 md:py-32 bg-background relative border-y border-white/5">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
+          <h2 className="text-4xl md:text-7xl font-sans font-black text-white uppercase tracking-tighter">
             INSCRI<span className="text-primary">ÇÕES</span>
           </h2>
           <p className="mt-4 text-xl text-white/60">Abertura prevista para o final de julho. Data oficial em breve.</p>
