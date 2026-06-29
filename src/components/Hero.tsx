@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Activity } from "lucide-react";
 
-export default function Hero() {
+export default function Hero({ onOpenModal }: { onOpenModal?: () => void }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isMounted, setIsMounted] = useState(false);
 
@@ -105,7 +105,10 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-12"
         >
-          <button className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-primary text-white font-black uppercase tracking-widest text-lg overflow-hidden transition-all hover:bg-primary-dark rounded-none transform skew-x-[-10deg] shadow-[0_0_20px_rgba(255,69,0,0.3)] hover:shadow-[0_0_40px_rgba(255,69,0,0.6)]">
+          <button 
+            onClick={onOpenModal}
+            className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-primary text-white font-black uppercase tracking-widest text-lg overflow-hidden transition-all hover:bg-primary-dark rounded-none transform skew-x-[-10deg] shadow-[0_0_20px_rgba(255,69,0,0.3)] hover:shadow-[0_0_40px_rgba(255,69,0,0.6)]"
+          >
             <span className="skew-x-[10deg]">Quero Participar</span>
             <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform skew-x-[10deg]" />
           </button>

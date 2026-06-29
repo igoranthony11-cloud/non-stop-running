@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function Pricing() {
+export default function Pricing({ onOpenModal }: { onOpenModal?: () => void }) {
   return (
     <section className="py-20 md:py-32 bg-background relative border-y border-white/5">
       <div className="container mx-auto px-6">
@@ -62,7 +62,10 @@ export default function Pricing() {
                 <li className="flex items-center gap-2">✓ Acesso ao Ranking</li>
               </ul>
             </div>
-            <button className="w-full py-4 bg-primary text-white font-bold uppercase hover:bg-primary-dark transition-colors">
+            <button 
+              onClick={onOpenModal}
+              className="w-full py-4 bg-primary text-white font-bold uppercase hover:bg-primary-dark transition-colors"
+            >
               Inscreva-se Agora
             </button>
           </motion.div>

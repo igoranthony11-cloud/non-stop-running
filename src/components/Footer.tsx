@@ -2,7 +2,7 @@
 
 import { ArrowRight } from "lucide-react";
 
-export default function Footer() {
+export default function Footer({ onOpenModal }: { onOpenModal?: () => void }) {
   return (
     <footer className="bg-primary text-white pt-24 pb-12 border-t border-primary-dark">
       <div className="container mx-auto px-6">
@@ -12,7 +12,10 @@ export default function Footer() {
           </h2>
           <p className="text-lg text-white/90 font-medium mb-10">Siga @runninggang_br e fique por dentro de todas as novidades da NONSTOP.</p>
           
-          <button className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-background text-white font-black uppercase tracking-widest text-lg overflow-hidden transition-all hover:bg-black rounded-none transform skew-x-[-10deg]">
+          <button 
+            onClick={onOpenModal}
+            className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-background text-white font-black uppercase tracking-widest text-lg overflow-hidden transition-all hover:bg-black rounded-none transform skew-x-[-10deg]"
+          >
             <span className="skew-x-[10deg]">Quero Participar</span>
             <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform skew-x-[10deg]" />
           </button>
